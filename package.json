@@ -1,0 +1,37 @@
+{
+  "name": "ra_atrabalhadoraapi",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "build": "tsc -p tsconfig.json",
+    "start": "ts-node index.ts",
+    "dev": "fastify start -w -l info -P index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaskruger/ra_aTrabalhadoraAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaskruger/ra_aTrabalhadoraAPI/issues"
+  },
+  "homepage": "https://github.com/nicolaskruger/ra_aTrabalhadoraAPI#readme",
+  "dependencies": {
+    "@fastify/autoload": "^6.0.0",
+    "@fastify/sensible": "^6.0.0",
+    "fastify": "^5.0.0",
+    "fastify-cli": "^7.4.0",
+    "fastify-plugin": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "typescript": "^5.8.3"
+  }
+}
